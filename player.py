@@ -7,7 +7,7 @@ FINISH_LINE_Y = 280
 class Player(Turtle):
     def __init__(self):
         super().__init__()
-        self.starting_pos = (0, -280)
+        self.starting_pos = (0, -280) # (x, y)
         self.move_distance = 10
         self.create_player()
 
